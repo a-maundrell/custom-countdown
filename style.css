@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 html {
   box-sizing: border-box;
@@ -10,7 +10,7 @@ body {
   overflow-y: hidden;
   display: flex;
   align-items: center;
-
+  font-family: 'Funnel Sans', sans-serif;
 }
 
 /* Video Background */
@@ -50,7 +50,7 @@ video {
   z-index: 2;
   display: flex;
   justify-content: center;
-
+  background-color: rgba(255, 255, 255, 0.85);
 }
 
 .input-container {
@@ -83,7 +83,7 @@ input {
   border-radius: 20px;
   background: #fff;
   outline: none;
-
+  font-family: 'Funnel Sans', sans-serif;
 }
 
 /* Button */
@@ -100,7 +100,9 @@ button {
   outline: none;
 }
 
-
+button:hover {
+  background: #004d41;
+}
 
 /* Countdown */
 ul {
@@ -142,7 +144,8 @@ li span {
   }
 
   .container {
-
+    min-width: unset;
+    width: 95vw;
     min-height: 245px;
     padding: 20px;
     margin: 10px;
